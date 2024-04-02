@@ -2,6 +2,7 @@
 //import React from "react"
 import {createGlobalStyle} from "styled-components"
 import Home from "./Components/Home/Home.jsx"
+import NavBar from "./Components/NavBar/NavBar.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -16,7 +17,8 @@ function App() {
     <>
      <GlobalStyle />
      <Home />
-     
+     <NavBar />
+
     </>
 
   )

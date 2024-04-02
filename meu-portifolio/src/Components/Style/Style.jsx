@@ -10,7 +10,7 @@ export const NavBar = styled.nav`
 
 
 export const Home = styled.main`
-background-color: green;
+background-color:52057B;
 
 `
 

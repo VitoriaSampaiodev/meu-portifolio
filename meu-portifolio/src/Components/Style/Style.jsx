@@ -1,16 +1,14 @@
 import styled from "styled-components"
 
 
-
-export const NavBar = styled.nav`
-    background-color: pink;
-    
-`
-
-
+//Home
 
 export const Home = styled.main`
-background-color:52057B;
+background-color:black;
 
 `
 
+export const SocialMedia = styled.div`
+border: solid blue;
+
+`

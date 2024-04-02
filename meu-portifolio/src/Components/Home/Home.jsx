@@ -11,7 +11,7 @@ function Home() {
             <img src={Perfil} alt="" />
 
             <h1>Hello, my name is Vitoria</h1>
-            <h2>I'm front end developer</h2>
+            <h2>I'm Front End Developer</h2>
 
         <S.SocialMedia>
             <img src={Linkedin} alt="linkedin" />

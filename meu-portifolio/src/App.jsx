@@ -1,7 +1,7 @@
 
 //import React from "react"
 import {createGlobalStyle} from "styled-components"
-import Home from "./Components/Home/Home.jsx"
+import Home from "./Components/PastaHome/Home.jsx"
 import NavBar from "./Components/NavBar/NavBar.jsx"
 
 const GlobalStyle = createGlobalStyle`

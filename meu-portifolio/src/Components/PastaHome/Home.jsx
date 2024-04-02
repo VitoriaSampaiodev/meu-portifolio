@@ -2,12 +2,12 @@
 import Perfil from "../ImagesPortifolio/me.png"
 import Linkedin from "../ImagesPortifolio/linkedin1.png"
 import Github from "../ImagesPortifolio/github3.png"
-import * as S from "../Style/Style.jsx"
+import * as S from "../PastaStyle/Style.jsx"
 
 
 function Home() {
     return(
-        <S.Home>
+        <S.SectionHome>
             <img src={Perfil} alt="" />
 
             <h1>Hello, my name is Vitoria</h1>
@@ -19,7 +19,7 @@ function Home() {
         </S.SocialMedia>    
 
 
-        </S.Home>
+        </S.SectionHome>
 
     )
 }

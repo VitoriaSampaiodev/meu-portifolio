@@ -1,7 +1,7 @@
-import Home from "../Home/Home.jsx"
+import Home from "../PastaHome/Home.jsx"
 import About from "../About/About.jsx"
-import Projects from "../Projects/Projects.jsx"
-import * as S from "../Style/Style.jsx"
+import Projects from "../PastaProjects/Projects.jsx"
+import * as S from "../PastaStyle/Style.jsx"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 

@@ -2,7 +2,8 @@
 //import React from "react"
 import {createGlobalStyle} from "styled-components"
 import Home from "./Components/PastaHome/Home.jsx"
-import NavBar from "./Components/NavBar/NavBar.jsx"
+import NavBar from "./Components/PastaNavBar/NavBar.jsx"
+import About from "./Components/About/About.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -13,16 +14,18 @@ const GlobalStyle = createGlobalStyle`
 `
 
 function App() {
-  return(
+  return (
     <>
-     <GlobalStyle />
-     <Home />
-     <NavBar />
+      <GlobalStyle />
+      <Home />
+      <NavBar />
+      <h2>TESTANDO</h2>
+      <About />
 
     </>
 
   )
-  
+
 }
 
 export default App

@@ -10,13 +10,15 @@ function NavBar() {
 
     return (
         <BrowserRouter>
-            <S.NavBar>
+            <S.NavBarRouter>
                 <S.list>
+                    
                     <li> <Link to="/"> Home </Link> </li>
                     <li> <Link to="/About"> About </Link> </li>
                     <li> <Link to="/Projects"> Projects </Link> </li>
+                    
                 </S.list>
-            </S.NavBar>
+            </S.NavBarRouter>
 
             <Routes>
                 <Route path="/" element={ <Home /> } />

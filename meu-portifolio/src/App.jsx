@@ -1,9 +1,11 @@
 
 //import React from "react"
 import {createGlobalStyle} from "styled-components"
-import Home from "./Components/PastaHome/Home.jsx"
-import NavBar from "./Components/PastaNavBar/NavBar.jsx"
-import About from "./Components/About/About.jsx"
+import Navegacao from "./Components/Navegacao.jsx"
+import Inicio from "./Components/Inicio.jsx"
+import Projetos from "./Components/Projetos.jsx"
+import Sobre from "./Components/Sobre.jsx"
+
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -16,11 +18,13 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <Home />
-      <NavBar />
-      <h2>TESTANDO</h2>
-      <About />
+
+      <GlobalStyle/>
+      <Navegacao />
+      <Inicio />
+      <Sobre />
+      <Projetos />
+
 
     </>
 
